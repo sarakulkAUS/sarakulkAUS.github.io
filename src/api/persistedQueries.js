@@ -13,33 +13,33 @@ it.
  import { aemHeadlessClient , mapErrors} from "./headlessClient";
 
  /**
-  * Queries a list of all Adventures using the persisted path "wknd-app/adventures-all"
+  * Queries a list of all Adventures using the persisted path "foxtelremotespademo/adventures-all"
   * @returns {data, errors}
   */
  export const getAllAdventures = async function() {
-     return executePersistedQuery('wknd-app/adventures-all');
+     return executePersistedQuery('foxtelremotespademo/adventures-all');
  }
  
  /**
   * Filters a list of adventures by activity 
-  * using the persisted path 'wknd-app/adventures-by-activity'
+  * using the persisted path 'foxtelremotespademo/adventures-by-activity'
   * @param {*} activityType 
   * @returns 
   */
  export const getAdventuresByActivity = async function(activityType) {
      const queryVariables = { 'activity': activityType }; // expected query variables
-     return executePersistedQuery('wknd-app/adventures-by-activity', queryVariables);
+     return executePersistedQuery('foxtelremotespademo/adventures-by-activity', queryVariables);
  }
  
  /**
   * Queries a single adventure based on a path to a content fragment
-  * uses persisted path 'wknd-app/adventures-by-path'
+  * uses persisted path 'foxtelremotespademo/adventures-by-path'
   * @param {*} adventurePath 
   * @returns 
   */
  export const getAdventureByPath = async function(adventurePath) {
      const queryVariables = {'adventurePath': adventurePath};
-     return executePersistedQuery('wknd-app/adventure-by-path', queryVariables);
+     return executePersistedQuery('foxtelremotespademo/adventure-by-path', queryVariables);
  }
  
  /**

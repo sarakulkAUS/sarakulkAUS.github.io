@@ -102,7 +102,7 @@ function AdventureDetailRender({ _path,
             <div dangerouslySetInnerHTML={{ __html: description.html }}></div>
 
             <AEMResponsiveGrid
-                pagePath={`/content/wknd-app/us/en/home/adventure/${adventureName}`}
+                pagePath={`/content/foxtelremotespademo/us/en/home/adventure/${adventureName}`}
                 itemPath="root/responsivegrid" />
 
             <h2>Itinerary</h2>
