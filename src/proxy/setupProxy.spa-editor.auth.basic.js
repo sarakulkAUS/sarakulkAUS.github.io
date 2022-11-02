@@ -26,7 +26,7 @@ module.exports = function(app) {
     /**
     * Re-writes URLs being proxied to AEM such that they can resolve to real AEM resources
     * - The "root" case of `/.model.json` are rewritten to the SPA's home page in AEM
-    * - .model.json requests for /adventure:xxx routes are rewritten to their corresponding adventure page under /content/wknd-app/us/en/home/adventure/ 
+    * - .model.json requests for /adventure:xxx routes are rewritten to their corresponding adventure page under /content/foxtelremotespademo/us/en/home/adventure/
     * 
     * @param {*} path the path being requested of the SPA
     * @param {*} req the request object
@@ -34,9 +34,9 @@ module.exports = function(app) {
     */
     const pathRewriteToAEM = function (path, req) { 
         if (path === '/.model.json') {
-            return '/content/wknd-app/us/en/home.model.json';
+            return '/content/foxtelremotespademo/us/en/home.model.json';
         } else if (path.startsWith('/adventure:') && path.endsWith('.model.json')) {
-            return '/content/wknd-app/us/en/home/adventure/' + path.split('/').pop();
+            return '/content/foxtelremotespademo/us/en/home/adventure/' + path.split('/').pop();
         }    
     }
 
