@@ -28,16 +28,16 @@ function Home(){
     return(
         <div className="Home">
              <AEMResponsiveGrid
-                  pagePath='/content/wknd-app/us/en/home'
+                  pagePath='/content/foxtelremotespademo/us/en/home'
                   itemPath='root/responsivegrid'/>
               <AEMTitle
-                   pagePath='/content/wknd-app/us/en/home'
+                   pagePath='/content/foxtelremotespademo/us/en/home'
                    itemPath='root/title'/>
               <AEMHtml
-                pagePath='/content/wknd-app/us/en/home'
+                pagePath='/content/foxtelremotespademo/us/en/home'
                 itemPath='root/htmlContainer'/>
               <AEMContentTile
-                 pagePath='/content/wknd-app/us/en/home'
+                 pagePath='/content/foxtelremotespademo/us/en/home'
                  itemPath='root/contenttile'/>
 
 

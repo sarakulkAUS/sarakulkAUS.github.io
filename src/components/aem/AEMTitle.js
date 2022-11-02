@@ -5,7 +5,7 @@
  import { TitleV2, TitleV2IsEmptyFn } from "@adobe/aem-core-components-react-base";
 
  // The sling:resourceType for which this Core Component is registered with in AEM
- const RESOURCE_TYPE = "wknd-app/components/title";
+ const RESOURCE_TYPE = "foxtelremotespademo/components/title";
 
  // Create an EditConfig to allow the AEM SPA Editor to properly render the component in the Editor's context
  const EditConfig = {    

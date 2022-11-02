@@ -1,7 +1,7 @@
 import React from 'react';
 import {withMappable , MapTo } from '@adobe/aem-react-editable-components';
 
-const RESOURCE_TYPE = "wknd-app/components/contenttile";
+const RESOURCE_TYPE = "foxtelremotespademo/components/contenttile";
 
 export const ContentTileConfig = {
     emptyLabel : 'Edit Content Tile',

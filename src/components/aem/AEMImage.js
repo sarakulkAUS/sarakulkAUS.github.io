@@ -3,7 +3,7 @@ import { ImageV2, ImageV2IsEmptyFn } from "@adobe/aem-core-components-react-base
 
 import './AEMImage.scss';
 
-const RESOURCE_TYPE = "wknd-app/components/image";
+const RESOURCE_TYPE = "foxtelremotespademo/components/image";
 
 const EditConfig = {    
     emptyLabel: "Image",

@@ -1,7 +1,7 @@
 import React from 'react';
 import { withMappable, MapTo } from '@adobe/aem-react-editable-components';
 
-const RESOURCE_TYPE = 'wknd-app/components/htmlContainer';
+const RESOURCE_TYPE = 'foxtelremotespademo/components/htmlContainer';
 
 export const HtmlEditConfig = {
     // Empty component placeholder label

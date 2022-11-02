@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <header>
           <Link to={"/"}>
-            <img src={logo} className="logos" alt="Foxtel Logo" />
+            <img src={REACT_APP_PUBLIC_URI + '/' + logo} className="logo" alt="Foxtel Logo" />
           </Link>
           <hr />
         </header>

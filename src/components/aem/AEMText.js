@@ -1,7 +1,7 @@
 import { withMappable, MapTo } from '@adobe/aem-react-editable-components';
 import { TextV2, TextV2IsEmptyFn } from "@adobe/aem-core-components-react-base";
 
-const RESOURCE_TYPE = "wknd-app/components/text";
+const RESOURCE_TYPE = "foxtelremotespademo/components/text";
 
 const EditConfig = {    
     emptyLabel: "Text",
