@@ -1,3 +1,4 @@
 /build
 .env.development
-node_modules\.cache*
+node_modules/.cache*
+local_development_access_token.json
