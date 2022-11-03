@@ -14,8 +14,8 @@ const { REACT_APP_HOST_URI, REACT_APP_DEV_TOKEN } = process.env;
     In a production environment this proxy should be set up at the webserver level or absolute URLs should be used.
 */
 module.exports = function(app) {
-  app.use(
-    ['/content', '/graphql'],
+   app.use(
+    ['/content', '/graphql' , '.model.json'],
     createProxyMiddleware({
       target: REACT_APP_HOST_URI,
       changeOrigin: true,
